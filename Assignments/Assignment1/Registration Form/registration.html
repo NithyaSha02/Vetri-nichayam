@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration </title>
+    <link rel="icon" href="slogo.jpeg">
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="sinfo">
+    <form>
+    <h1>Student Registration Form</h1>
+    <div class="student">
+      <fieldset>
+       <legend><b>Student Information</b></legend>
+     <div class="roll">
+       <label  for="id" id="rollno">Roll no:</label>
+       <input type="text" id="roll" placeholder="enter your roll number">
+    </div>
+     <div class="name">
+       <label for="name" id="sname">First name:</label>
+       <input type="text" class="name" placeholder="enter first name"><br><br>
+       <label for="lname">Last name:</label>
+       <input type="text" class="name" placeholder="enter last name">
+    </div>
+    <div class="dob">
+       <label for="dob" id="birth" >Date of birth:</label>
+       <input type="date" id="dob">
+    </div>
+    <div class="fname">
+       <label for="fname">Father's name:</label>
+       <input type="text" id="fname" placeholder="enter father's name">
+    </div>
+    <div class="mname">
+       <label for="mname">Mother's name:</label>
+       <input type="text" id="fname" placeholder="enter mother's name">
+    </div>
+    <div class="gender">
+       <p for="gender">Gender:</p>
+    <div class="gen">
+       <input type="radio" id="Female" name="Gender">
+       <p for="Female">Female</p>
+       <input type="radio" id="male" name="Gender">
+       <p for="male">Male</p>
+       <input type="radio" id="others" name="Gender">
+       <p for="others">Others</p>
+    </div>
+    </div>
+       </fieldset>
+    </div>
+
+
+    <div class="personal">
+      <fieldset>
+        <legend><b>Personal Information</b></legend>
+    <div class="mail">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" placeholder="enter email">
+    </div>
+    <div class="pwd">
+        <label for="pwd">Password:</label>
+        <input type="password" placeholder="enter password">
+    </div>
+    <div class="contact">
+        <label for="Contact">Contact number:</label>
+        <input type="number" id="contact" placeholder="enter phone number">
+    </div>
+    <div class="address">
+        <label for="add">Address:</label>
+        <input type="text" id="add" placeholder="enter permanent address">
+    </div>
+        <div class="photo">
+        <label for="photo">Student photo:</label>
+        <input type="file">
+    </div>
+      </fieldset>
+    </div>
+
+
+    <div class="course">
+      <fieldset>
+        <legend><b>Course information</b></legend>
+     <div class="dept">
+        <label for="dept" > Department:</label>
+        <select id="dept">
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.E Mech</option>
+            <option>B.E CSE</option>
+        </select>
+     </div>
+    <div class="pass">
+        <label for="year">Year of passed out:</label>
+        <input type="tel" id="year" placeholder=" passed out year"maxlength="4">
+    </div>
+    <div class="course">
+        <label for="course">Course:</label>
+        <select id="course" placeholder="select course">
+            <option>MCA</option>
+            <option>MBA</option>
+            <option>M.E Mech</option>
+            <option>M.E CSE</option>
+        </select>
+    </div>
+      </fieldset>
+    </div>
+    <div class="button">
+        <center>
+    <button class="btn">Submit</button>
+    <button class="btn">Cancel</buttion>
+        </center>
+    </div>
+</form>
+</div>
+</body>
+</html>
